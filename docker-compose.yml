@@ -1,0 +1,10 @@
+---
+
+version: '3.7'
+
+services:
+  exercises:
+    build: .
+    volumes:
+      - .:/exercises-csharp
+    command: make check
