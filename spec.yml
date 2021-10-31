@@ -3,5 +3,5 @@
 language:
   docker_image: "hexletbasics/exercises-csharp"
   extension: cs
-  exercise_filename: Program.cs
-  exercise_test_filename: UnitTests.cs
+  exercise_filename: Exercise.csx
+  exercise_test_filename: Test.csx

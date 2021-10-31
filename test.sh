@@ -1,1 +1,0 @@
-dotnet test -l "console;verbosity=detailed" ./UnitTests/UnitTests.csproj 2>&1
