@@ -1,9 +1,6 @@
 /**/logs/
 .idea/
 .vs/
-[Bb]in/
-[Oo]bj/
 [Tt]estResults/
 /*.iml
-*.cs
 *.DS_Store

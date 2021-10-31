@@ -9,10 +9,7 @@ compose-build:
 	docker-compose build
 
 code-lint:
-	~/bin/jb inspectcode Program.csproj
-
-compile:
-	@(for i in $$(find . -type f -name Program.csproj); do dotnet build $$(dirname $$i)/*.csproj ; done)
+	# ~/bin/jb inspectcode Program.csproj
 
 clean:
 	@$$(find . -type f -name *.cs -delete)
