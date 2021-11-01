@@ -1,12 +1,9 @@
-#r "nuget: FluentAssertions, 6.2.0"
-#load "../../../RedirectOutput.csx"
+/* TODO: поправить пути поиска, чтобы не указывать относительный путь */
+#load "../../../src/Init.csx"
+#load "../../../src/RedirectOutput.csx"
 #load "Exercise.csx"
 
-using FluentAssertions;
+using PowerAssert;
 
 var output = capturedConsoleOutput.ToString().Trim();
-output.Should().Be("Hello, World!");
-
-
-
-
+PAssert.IsTrue(() => output == "Hello, World!");

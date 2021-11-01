@@ -12,8 +12,11 @@ ENV PATH=/exercises-csharp/bin:$PATH
 
 RUN dotnet tool install -g JetBrains.ReSharper.GlobalTools
 RUN dotnet tool install -g dotnet-script
+
 ENV PATH=/root/.dotnet/tools:$PATH
+
 COPY Warmup.csx .
+
 RUN dotnet script Warmup.csx
 
 COPY . .
