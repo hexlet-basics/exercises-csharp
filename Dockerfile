@@ -15,7 +15,7 @@ RUN dotnet tool install -g dotnet-script
 
 ENV PATH=/root/.dotnet/tools:$PATH
 
-COPY Warmup.csx .
+COPY src/Warmup.csx .
 
 RUN dotnet script Warmup.csx
 
