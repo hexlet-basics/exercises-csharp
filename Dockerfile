@@ -18,6 +18,7 @@ ENV PATH=/root/.dotnet/tools:$PATH
 COPY src/ src/
 
 RUN dotnet script src/Warmup.csx
+RUN ln -s /exercises-csharp/src /src
 
 COPY . .
 
