@@ -7,4 +7,4 @@ using PowerAssert;
 var output = capturedConsoleOutput.ToString().Trim();
 Console.SetOut(originalStdOut);
 
-PAssert.IsTrue(() => output == "Hello, World!");
+PAssert.IsTrue(() => output == "420262531");
