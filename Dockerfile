@@ -22,3 +22,4 @@ RUN ln -s /exercises-csharp/src /src
 
 COPY . .
 
+RUN make test
