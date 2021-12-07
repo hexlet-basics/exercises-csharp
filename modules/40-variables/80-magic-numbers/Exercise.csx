@@ -1,5 +1,3 @@
-/* eslint prefer-const: 0, prefer-template: 0 */
-
 var king = "King Balon the 6th";
 
 // BEGIN
