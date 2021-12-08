@@ -6,7 +6,7 @@ theory: |
 
   ```cs
   var what = "Kings" + "road";
-  System.Console.WriteLine(what); // => "Kingsroad"
+  Console.WriteLine(what); // => "Kingsroad"
   ```
 
   … а значит сумеем конкатенировать строку и одну переменную, в которой записана строка:
@@ -15,7 +15,7 @@ theory: |
   var first = "Kings";
   var what = first + "road";
 
-  System.Console.WriteLine(what); // => "Kingsroad"
+  Console.WriteLine(what); // => "Kingsroad"
   ```
 
   … и даже конкатенировать две переменные, в которых записаны строки:
@@ -25,7 +25,7 @@ theory: |
   var last = "road";
   var what = first + last;
 
-  System.Console.WriteLine(what); //=> "Kingsroad"
+  Console.WriteLine(what); //=> "Kingsroad"
   ```
 
 instructions: |
@@ -46,7 +46,7 @@ instructions: |
   We couldn't verify you mother's maiden name.
   </pre>
 
-  Выполните задание, используя только два `System.Console.WriteLine()`.
+  Выполните задание, используя только два `Console.WriteLine()`.
 
 tips:
   - |

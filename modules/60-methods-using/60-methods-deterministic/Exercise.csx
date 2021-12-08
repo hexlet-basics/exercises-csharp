@@ -1,1 +1,1 @@
-System.Console.WriteLine((int) (Functions.RandomDouble() * 10));
+Console.WriteLine((int) (Functions.RandomDouble() * 10));

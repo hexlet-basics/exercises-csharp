@@ -8,7 +8,7 @@ theory: |
   var firstName = "Joffrey";
   var greeting = "Hello";
 
-  System.Console.WriteLine(greeting + ", " + firstName + "!");
+  Console.WriteLine(greeting + ", " + firstName + "!");
   // => "Hello, Joffrey!"
   ```
 
@@ -21,7 +21,7 @@ theory: |
   var greeting = "Hello";
 
   // Обратите внимание на знак доллара перед началом строки
-  System.Console.WriteLine($"{greeting}, {firstName}!");
+  Console.WriteLine($"{greeting}, {firstName}!");
   // => "Hello, Joffrey!"
   ```
 

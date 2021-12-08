@@ -9,5 +9,5 @@ var char3 = three[3];
 var char4 = two[4];
 var char5 = two[2];
 
-System.Console.WriteLine($"{char1} {char2} {char3} {char4} {char5}");
+Console.WriteLine($"{char1} {char2} {char3} {char4} {char5}");
 // END

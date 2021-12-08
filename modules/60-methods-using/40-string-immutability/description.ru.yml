@@ -7,7 +7,7 @@ theory: |
   ```cs
   var company = "hexlet";
   company.ToUpper(); // в верхний регистр
-  System.Console.WriteLine(company); // => ?
+  Console.WriteLine(company); // => ?
   ```
 
   Если ваш ответ, `"HEXLET"`, то нам есть о чем поговорить) Эта программа выведет `"hexlet"`. Почему?
@@ -21,7 +21,7 @@ theory: |
   ```cs
   var name = "HODOR";
   name = name.ToLower();
-  System.Console.WriteLine(name); // => "hodor"
+  Console.WriteLine(name); // => "hodor"
   ```
 
   С другой стороны, именно в такой ситуации можно создать новую переменную, с другим именем.
@@ -29,7 +29,7 @@ theory: |
   ```cs
   var name = "HODOR"
   var processedName = name.toLowerCase();
-  System.Console.WriteLine(processedName); // => "hodor"
+  Console.WriteLine(processedName); // => "hodor"
   ```
 
   Такой подход нередко предпочтительнее, по соображением читаемости. Переменные, которые постоянно меняются сложнее анализировать. В конечном итоге все зависит от задачи и понимание того как лучше приходит с опытом.

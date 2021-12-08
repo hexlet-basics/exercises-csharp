@@ -1,1 +1,1 @@
-System.Console.WriteLine("hexlet" + '-' + 7);
+Console.WriteLine("hexlet" + '-' + 7);

@@ -1,2 +1,2 @@
-System.Console.WriteLine(3 * 5);
-System.Console.WriteLine(-8 / -4);
+Console.WriteLine(3 * 5);
+Console.WriteLine(-8 / -4);

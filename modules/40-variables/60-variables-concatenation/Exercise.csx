@@ -5,6 +5,6 @@ var firstName = "Joffrey";
 var greeting = "Hello";
 
 // BEGIN
-System.Console.WriteLine(greeting + ", " + firstName + "!");
-System.Console.WriteLine(intro + "\n" + info);
+Console.WriteLine(greeting + ", " + firstName + "!");
+Console.WriteLine(intro + "\n" + info);
 // END

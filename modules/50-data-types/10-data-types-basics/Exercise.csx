@@ -1,1 +1,1 @@
-System.Console.WriteLine(3 / 2);
+Console.WriteLine(3 / 2);

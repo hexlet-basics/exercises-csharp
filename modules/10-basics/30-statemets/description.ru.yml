@@ -5,8 +5,8 @@ theory: |
   Инструкция — это команда для компьютера. Код на C# — это набор инструкций, которые, обычно, отделяются друг от друга символом `;`. Вот пример кода с двумя инструкциями:
 
   ```cs
-  System.Console.WriteLine("Mother of Dragons");
-  System.Console.WriteLine("Dracarys!");
+  Console.WriteLine("Mother of Dragons");
+  Console.WriteLine("Dracarys!");
   ```
 
   При запуске этого кода на экран последовательно выводятся два предложения:
@@ -21,7 +21,7 @@ theory: |
   Теоретически инструкции можно написать последовательно друг за другом без переноса на новую строчку:
 
   ```cs
-  System.Console.WriteLine("Mother of Dragons."); System.Console.WriteLine("Dracarys!");
+  Console.WriteLine("Mother of Dragons."); Console.WriteLine("Dracarys!");
   ```
 
   Результат на экране будет таким же, но на практике такой подход считается плохим.
@@ -35,4 +35,4 @@ instructions: |
   Renly
   </pre>
 
-  Для каждого имени используйте свой собственный вызов `System.Console.WriteLine()`.
+  Для каждого имени используйте свой собственный вызов `Console.WriteLine()`.
