@@ -14,8 +14,9 @@ theory: |
 
   ```cs
   var name = "Bran";
-  // длинна строки 4 значит последний символ будет иметь индекс 3
-  name.IndexOf('n'); // 3
+  var nameLength = name.Length;
+  var lastCharIndex = nameLength - 1;
+  name[lastCharIndex]; // 'n'
   ```
 
   ## Несколько аргументов
