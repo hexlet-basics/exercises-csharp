@@ -1,3 +1,3 @@
-System.Console.WriteLine("Robert");
-System.Console.WriteLine("Stannis");
-System.Console.WriteLine("Renly");
+Console.WriteLine("Robert");
+Console.WriteLine("Stannis");
+Console.WriteLine("Renly");

@@ -1,1 +1,1 @@
-System.Console.WriteLine("What Is Dead May Never Die");
+Console.WriteLine("What Is Dead May Never Die");

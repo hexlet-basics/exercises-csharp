@@ -7,13 +7,13 @@ theory: |
 
   ```cs
   var greeting = "Father!";
-  System.Console.WriteLine(greeting);
-  System.Console.WriteLine(greeting);
+  Console.WriteLine(greeting);
+  Console.WriteLine(greeting);
 
   // var уже не используется, так как переменная была определена выше
   greeting = "Mother!";
-  System.Console.WriteLine(greeting);
-  System.Console.WriteLine(greeting);
+  Console.WriteLine(greeting);
+  Console.WriteLine(greeting);
   ```
 
   C# статически типизированный язык, это значит что тип переменной задается при определении и больше не меняется. В примере выше, при создании переменной, мы присвоили ей строку. Компилятор запоминает тип и проверяет все последующие изменения переменной. Если попробовать этой же переменной присвоить число, то мы получим следующую ошибку:

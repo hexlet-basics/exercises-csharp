@@ -1,1 +1,1 @@
-System.Console.WriteLine(420262531);
+Console.WriteLine(420262531);

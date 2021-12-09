@@ -15,7 +15,7 @@ theory: |
   или может находиться на строчке после какого-нибудь кода:
 
   ```cs
-  System.Console.WriteLine("I am the King"); // => For Lannisters!
+  Console.WriteLine("I am the King"); // => For Lannisters!
   ```
 
   **Многострочные комментарии** начинаются с `/*` и заканчиваются на `*/`. Принято каждую строчку начинать с символа `*`, хотя технически это и не обязательно.
@@ -25,7 +25,7 @@ theory: |
   * The night is dark and
   * full of terrors.
   */
-  System.Console.WriteLine("I am the King"); // => I am the King
+  Console.WriteLine("I am the King"); // => I am the King
   ```
 
   **Документирующие комментарии** для каждой строчки используют `///`.

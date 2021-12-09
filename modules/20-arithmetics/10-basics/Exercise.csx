@@ -1,1 +1,1 @@
-System.Console.WriteLine(81 / 9);
+Console.WriteLine(81 / 9);

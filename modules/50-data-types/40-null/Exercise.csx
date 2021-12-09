@@ -3,4 +3,4 @@ string greeting;
 // END
 
 greeting = "Hello Hexlet!";
-System.Console.WriteLine(greeting);
+Console.WriteLine(greeting);

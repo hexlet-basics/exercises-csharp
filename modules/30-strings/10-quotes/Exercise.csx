@@ -1,1 +1,1 @@
-System.Console.WriteLine("\"Khal Drogo's favorite word is \"athjahakar\"\"");
+Console.WriteLine("\"Khal Drogo's favorite word is \"athjahakar\"\"");

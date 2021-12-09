@@ -7,7 +7,7 @@ theory: |
   ```cs
   // Оператор такой же, как и при сложении чисел
   // но здесь он имеет другой смысл (семантику)
-  System.Console.WriteLine("Dragon" + "stone");
+  Console.WriteLine("Dragon" + "stone");
   // => Dragonstone
   ```
 
@@ -16,13 +16,13 @@ theory: |
   Вот еще несколько примеров:
 
   ```cs
-  System.Console.WriteLine("Kings" + "wood"); // => Kingswood
+  Console.WriteLine("Kings" + "wood"); // => Kingswood
 
   // Обратный порядок слов
-  System.Console.WriteLine("road" + "Kings"); // => roadKings
+  Console.WriteLine("road" + "Kings"); // => roadKings
 
   // Конкатенировать можно абсолютно любые строки
-  System.Console.WriteLine("King's" + "Landing"); // => King'sLanding
+  Console.WriteLine("King's" + "Landing"); // => King'sLanding
   ```
 
   В последнем примере название города получилось с ошибкой: *King's Landing* нужно писать через пробел. Но в наших начальных строках не было пробелов, а пробелы в самом коде слева и справа от символа `+` не имеют значения, потому что они не являются частью строк.
@@ -31,26 +31,26 @@ theory: |
 
   ```cs
   // Ставим пробел в левой части
-  System.Console.WriteLine("King's " + "Landing"); //  => King's Landing
+  Console.WriteLine("King's " + "Landing"); //  => King's Landing
 
   // Ставим пробел в правой части
-  System.Console.WriteLine("King's" + " Landing"); //  => King's Landing
+  Console.WriteLine("King's" + " Landing"); //  => King's Landing
 
   // Добавляем пробел отдельно
-  System.Console.WriteLine("King's" + " " + "Landing"); //  => King's Landing
+  Console.WriteLine("King's" + " " + "Landing"); //  => King's Landing
   ```
 
   Пробел — такой же символ, как и другие. Чем больше пробелов, тем шире отступы:
 
   ```cs
-  System.Console.WriteLine("King's " + " Landing");   // => King's  Landing
+  Console.WriteLine("King's " + " Landing");   // => King's  Landing
 
-  System.Console.WriteLine("King's  " + "  Landing"); // => King's    Landing
+  Console.WriteLine("King's  " + "  Landing"); // => King's    Landing
   ```
 
 instructions: |
 
-  Используя `System.Console.WriteLine()`, выполните конкатенацию слов и выведите на экран фразу:
+  Используя `Console.WriteLine()`, выполните конкатенацию слов и выведите на экран фразу:
 
   <pre class='hexlet-basics-output'>
   Winter came for the House of Frey.
@@ -61,4 +61,4 @@ instructions: |
 definitions:
   - name: Конкатенация
     description: |
-      операция соединения двух строк. Например, `System.Console.WriteLine("King's " + " Landing");`
+      операция соединения двух строк. Например, `Console.WriteLine("King's " + " Landing");`

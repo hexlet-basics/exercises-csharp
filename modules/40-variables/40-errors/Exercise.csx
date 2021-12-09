@@ -4,4 +4,4 @@ var family = "Targaryen";
 var pet = "Dragon";
 // END
 
-System.Console.WriteLine(family + " and " + pet);
+Console.WriteLine(family + " and " + pet);
