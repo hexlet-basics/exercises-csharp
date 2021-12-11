@@ -5,7 +5,7 @@ class App
     {
         var currentDate = DateTime.Now.ToString("yyyy-MM-dd");
         var currentYearAsString = currentDate.Substring(0, 4);
-        var currentYear = int.Parse(currentYearAsString);
+        var currentYear = Convert.ToInt32(currentYearAsString);
         return currentYear;
     }
     // END
