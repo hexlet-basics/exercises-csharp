@@ -1,1 +1,3 @@
-dotnet script Test.csx 2>&1
+#!/bin/bash
+
+scriptcs Test.csx 2>&1
