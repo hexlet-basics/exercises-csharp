@@ -1,9 +1,9 @@
 class App
 {
     // BEGIN
-    public static bool IsLeapYear(int year)
+    public static bool IsLannisterSoldier(string color, string shield)
     {
-        return year % 400 == 0 || (year % 4 == 0 && year % 100 != 0);
+        return (color == "red" && shield == null) || shield == "lion";
     }
     // END
 }
