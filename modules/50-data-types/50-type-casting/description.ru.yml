@@ -6,7 +6,7 @@ theory: |
 
   ```cs
   // станет int
-  var number = int.parse("345");
+  var number = Convert.ToInt32("345");
   Console.WriteLine(number); // => 345
   ```
 
