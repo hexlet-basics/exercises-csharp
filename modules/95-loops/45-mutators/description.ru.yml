@@ -70,4 +70,4 @@ instructions: |
 
 tips:
   - |
-    [Оператор остатка от деления (%)](https://developer.mozilla.org/en-US/docs/Web/java/Reference/Operators/Remainder)
+    [Оператор остатка от деления (%)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/arithmetic-operators#remainder-operator-)
