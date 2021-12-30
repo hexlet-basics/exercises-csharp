@@ -28,7 +28,6 @@ theory: |
   Давайте напишем ещё один метод-предикат. Он принимает строку и проверяет, является ли она словом `'Castle'`:
 
   ```cs
-  const isCastle = (type) => type === 'Castle';
   public static bool IsCastle(string building)
   {
       return building == "Castle";
