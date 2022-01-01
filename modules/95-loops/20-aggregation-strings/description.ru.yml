@@ -36,11 +36,11 @@ theory: |
   Распишем выполнение этого кода по шагам:
 
   ```cs
-  // Для вызова App.Repeat('hexlet', 3);
+  // Для вызова App.Repeat("hexlet", 3);
   var result = "";
-  result = result + hexlet; // hexlet
-  result = result + hexlet; // hexlethexlet
-  result = result + hexlet; // hexlethexlethexlet
+  result = result + "hexlet"; // "hexlet"
+  result = result + "hexlet"; // "hexlethexlet"
+  result = result + "hexlet"; // "hexlethexlethexlet"
   ```
 
 instructions: |
@@ -48,9 +48,9 @@ instructions: |
   Реализуйте метод `JoinNumbersFromRange()` в классе `App`, который объединяет все числа из диапазона в строку:
 
   ```cs
-  App.JoinNumbersFromRange(1, 1); // '1'
-  App.JoinNumbersFromRange(2, 3); // '23'
-  App.JoinNumbersFromRange(5, 10); // '5678910'
+  App.JoinNumbersFromRange(1, 1); // "1"
+  App.JoinNumbersFromRange(2, 3); // "23"
+  App.JoinNumbersFromRange(5, 10); // "5678910"
   ```
 
   Чтобы превратить одиночное число в строку используйте метод `ToString()`. Например:
