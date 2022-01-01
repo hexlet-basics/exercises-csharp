@@ -54,7 +54,8 @@ instructions: |
   ```
 
   Чтобы превратить одиночное число в строку используйте метод `ToString()`. Например:
-  ```
+
+  ```cs
   var number = 1;
-  i.ToString(); // "1"
+  number.ToString(); // "1"
   ```
