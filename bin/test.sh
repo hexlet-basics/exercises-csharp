@@ -11,6 +11,6 @@ set -e
 { OUTPUT=$(scriptcs Test.csx 2>&1 | tee /dev/fd/5); } 5>&1
 
 if [ ! -z "$OUTPUT" ]; then
-  MATCHES_COUNT=$(grep -c 'error CS' <<< $OUTPUT)
+  MATCHES_COUNT=$(grep -c 'error CS' <<< $OUTPUT) || true
   [ $MATCHES_COUNT == "0" ]
 fi

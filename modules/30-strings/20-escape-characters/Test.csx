@@ -6,5 +6,6 @@ using PowerAssert;
 
 var output = capturedConsoleOutput.ToString().Trim();
 Console.SetOut(originalStdOut);
+Console.Write(capturedConsoleOutput);
 
 PAssert.IsTrue(() => output == "- Did Joffrey agree?\n- He did. He also said \"I love using \\n\".");

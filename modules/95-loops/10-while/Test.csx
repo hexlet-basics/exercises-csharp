@@ -8,5 +8,6 @@ App.PrintNumbers(3);
 
 var output = capturedConsoleOutput.ToString().Trim();
 Console.SetOut(originalStdOut);
+Console.Write(capturedConsoleOutput);
 
 PAssert.IsTrue(() => output == "3\n2\n1\nfinished!");
