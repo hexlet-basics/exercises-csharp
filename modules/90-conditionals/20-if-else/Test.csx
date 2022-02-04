@@ -3,5 +3,8 @@
 
 using PowerAssert;
 
-PAssert.IsTrue(() => App.NormalizeUrl("yandex.ru") == "https://yandex.ru");
-PAssert.IsTrue(() => App.NormalizeUrl("https://yandex.ru") == "https://yandex.ru");
+var actual1 = App.NormalizeUrl("yandex.ru");
+PAssert.IsTrue(() => actual1 == "https://yandex.ru");
+
+var actual2 = App.NormalizeUrl("https://yandex.ru");
+PAssert.IsTrue(() => actual2 == "https://yandex.ru");

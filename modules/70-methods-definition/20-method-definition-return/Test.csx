@@ -3,6 +3,5 @@
 
 using PowerAssert;
 
-var result = App.GetCurrentYear();
-
-PAssert.IsTrue(() => result == DateTime.Now.Year);
+var actual = App.GetCurrentYear();
+PAssert.IsTrue(() => actual == DateTime.Now.Year);

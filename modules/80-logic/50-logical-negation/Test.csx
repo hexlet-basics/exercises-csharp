@@ -3,8 +3,17 @@
 
 using PowerAssert;
 
-PAssert.IsTrue(() => App.IsNotLannisterSoldier("blue", null) == true);
-PAssert.IsTrue(() => App.IsNotLannisterSoldier("red", null) == false);
-PAssert.IsTrue(() => App.IsNotLannisterSoldier("red", "man") == true);
-PAssert.IsTrue(() => App.IsNotLannisterSoldier("red", "lion") == false);
-PAssert.IsTrue(() => App.IsNotLannisterSoldier("blue", "lion") == false);
+var actual1 = App.IsNotLannisterSoldier("blue", null);
+PAssert.IsTrue(() => actual1 == true);
+
+var actual2 = App.IsNotLannisterSoldier("red", null);
+PAssert.IsTrue(() => actual2 == false);
+
+var actual3 = App.IsNotLannisterSoldier("red", "man");
+PAssert.IsTrue(() => actual3 == true);
+
+var actual4 = App.IsNotLannisterSoldier("red", "lion");
+PAssert.IsTrue(() => actual4 == false);
+
+var actual5 = App.IsNotLannisterSoldier("blue", "lion");
+PAssert.IsTrue(() => actual5 == false);

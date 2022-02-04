@@ -3,6 +3,11 @@
 
 using PowerAssert;
 
-PAssert.IsTrue(() => App.IsMister("8234782") == false);
-PAssert.IsTrue(() => App.IsMister("Joker") == false);
-PAssert.IsTrue(() => App.IsMister("Mister") == true);
+var actual1 = App.IsMister("8234782");
+PAssert.IsTrue(() => actual1 == false);
+
+var actual2 = App.IsMister("Joker");
+PAssert.IsTrue(() => actual2 == false);
+
+var actual3 = App.IsMister("Mister");
+PAssert.IsTrue(() => actual3 == true);

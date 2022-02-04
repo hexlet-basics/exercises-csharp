@@ -3,5 +3,8 @@
 
 using PowerAssert;
 
-PAssert.IsTrue(() => App.IsInternationalPhone("89602223423") == false);
-PAssert.IsTrue(() => App.IsInternationalPhone("+79602223423") == true);
+var actual1 = App.IsInternationalPhone("89602223423");
+PAssert.IsTrue(() => actual1 == false);
+
+var actual2 = App.IsInternationalPhone("+79602223423");
+PAssert.IsTrue(() => actual2 == true);

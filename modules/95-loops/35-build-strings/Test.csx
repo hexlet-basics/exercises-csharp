@@ -3,6 +3,11 @@
 
 using PowerAssert;
 
-PAssert.IsTrue(() => App.Reverse("Bran") == "narB");
-PAssert.IsTrue(() => App.Reverse("") == "");
-PAssert.IsTrue(() => App.Reverse("Hexlet") == "telxeH");
+var actual1 = App.Reverse("Bran");
+PAssert.IsTrue(() => actual1 == "narB");
+
+var actual2 = App.Reverse("");
+PAssert.IsTrue(() => actual2 == "");
+
+var actual3 = App.Reverse("Hexlet");
+PAssert.IsTrue(() => actual3 == "telxeH");

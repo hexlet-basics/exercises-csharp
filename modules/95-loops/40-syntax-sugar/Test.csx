@@ -3,6 +3,11 @@
 
 using PowerAssert;
 
-PAssert.IsTrue(() => App.FilterString("If I look back I am lost", 'I') == "f  look back  am lost");
-PAssert.IsTrue(() => App.FilterString("If I look back I am lost", 'o') == "If I lk back I am lst");
-PAssert.IsTrue(() => App.FilterString("zz zorro", 'z') == " orro");
+var actual1 = App.FilterString("If I look back I am lost", 'I');
+PAssert.IsTrue(() => actual1 == "f  look back  am lost");
+
+var actual2 = App.FilterString("If I look back I am lost", 'o');
+PAssert.IsTrue(() => actual2 == "If I lk back I am lst");
+
+var actual3 = App.FilterString("zz zorro", 'z');
+PAssert.IsTrue(() => actual3 == " orro");

@@ -3,5 +3,8 @@
 
 using PowerAssert;
 
-PAssert.IsTrue(() => App.ConvertString("hey") == "yeh");
-PAssert.IsTrue(() => App.ConvertString("Hey") == "Hey");
+var actual1 = App.ConvertString("hey");
+PAssert.IsTrue(() => actual1 == "yeh");
+
+var actual2 = App.ConvertString("Hey");
+PAssert.IsTrue(() => actual2 == "Hey");

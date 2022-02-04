@@ -3,7 +3,14 @@
 
 using PowerAssert;
 
-PAssert.IsTrue(() => App.CountChars("axe", 'a') == 1);
-PAssert.IsTrue(() => App.CountChars("", 'a') == 0);
-PAssert.IsTrue(() => App.CountChars("OpPa", 'p') == 2);
-PAssert.IsTrue(() => App.CountChars("OpPa", 'P') == 2);
+var actual1 = App.CountChars("axe", 'a');
+PAssert.IsTrue(() => actual1 == 1);
+
+var actual2 = App.CountChars("", 'a');
+PAssert.IsTrue(() => actual2 == 0);
+
+var actual3 = App.CountChars("OpPa", 'p');
+PAssert.IsTrue(() => actual3 == 2);
+
+var actual4 = App.CountChars("OpPa", 'P');
+PAssert.IsTrue(() => actual4 == 2);

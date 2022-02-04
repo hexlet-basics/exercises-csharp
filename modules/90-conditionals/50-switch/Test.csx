@@ -3,7 +3,14 @@
 
 using PowerAssert;
 
-PAssert.IsTrue(() => App.GetNumberExplanation(0) == null);
-PAssert.IsTrue(() => App.GetNumberExplanation(666) == "devil number");
-PAssert.IsTrue(() => App.GetNumberExplanation(42) == "answer for everything");
-PAssert.IsTrue(() => App.GetNumberExplanation(7) == "prime number");
+var actual1 = App.GetNumberExplanation(0);
+PAssert.IsTrue(() => actual1 == null);
+
+var actual2 = App.GetNumberExplanation(666);
+PAssert.IsTrue(() => actual2 == "devil number");
+
+var actual3 = App.GetNumberExplanation(42);
+PAssert.IsTrue(() => actual3 == "answer for everything");
+
+var actual4 = App.GetNumberExplanation(7);
+PAssert.IsTrue(() => actual4 == "prime number");
