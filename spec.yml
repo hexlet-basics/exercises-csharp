@@ -5,3 +5,6 @@ language:
   extension: csx
   exercise_filename: Exercise.csx
   exercise_test_filename: Test.csx
+  learn_as: first_language
+  progress: completed
+  name: C#
