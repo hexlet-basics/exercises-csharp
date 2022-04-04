@@ -28,7 +28,7 @@ theory: |
 
   ```cs
   var name = "HODOR"
-  var processedName = name.toLowerCase();
+  var processedName = name.ToLower();
   Console.WriteLine(processedName); // => "hodor"
   ```
 
