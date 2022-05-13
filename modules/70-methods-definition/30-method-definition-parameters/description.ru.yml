@@ -28,7 +28,7 @@ theory: |
   var name1 = "Hexlet";
   App.GetLastChar(name1); // 't'
   var name2 = "Goo";
-  App.getLastChar(name2); // 'o'
+  App.GetLastChar(name2); // 'o'
   ```
 
   Из описания и примеров кода мы можем сделать следующие выводы:
