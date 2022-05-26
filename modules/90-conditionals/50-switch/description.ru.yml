@@ -39,6 +39,7 @@ theory: |
           break;
       default: // else
           // Делаем четыре
+          break;
   }
   ```
 
