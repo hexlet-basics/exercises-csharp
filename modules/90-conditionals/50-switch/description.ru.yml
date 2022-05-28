@@ -62,6 +62,7 @@ theory: |
           break;
       default:
           // Что-то делаем
+          break;
   }
   ```
 
