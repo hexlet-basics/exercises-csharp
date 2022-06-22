@@ -2,6 +2,7 @@
 #load "/src/RedirectOutput.csx"
 #load "Exercise.csx"
 
+;
 using PowerAssert;
 
 App.PrintReversedNameBySymbol("Hexlet");
