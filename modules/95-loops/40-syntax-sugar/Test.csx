@@ -1,6 +1,7 @@
 #load "/src/Init.csx"
 #load "Exercise.csx"
 
+;
 using PowerAssert;
 
 var actual1 = App.FilterString("If I look back I am lost", 'I');
