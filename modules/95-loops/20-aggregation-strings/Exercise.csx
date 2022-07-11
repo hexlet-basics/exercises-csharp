@@ -8,7 +8,7 @@ class App
 
         while (i <= finish)
         {
-            result = result + i;
+            result = result + i.ToString();
             i = i + 1;
         }
 
