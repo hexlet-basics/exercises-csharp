@@ -1,7 +1,6 @@
 #load "/src/Init.csx"
 #load "Exercise.csx"
 
-;
 using PowerAssert;
 
 var actual1 = App.IsMister("8234782");

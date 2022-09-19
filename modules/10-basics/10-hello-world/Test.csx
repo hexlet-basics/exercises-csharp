@@ -2,7 +2,6 @@
 #load "/src/RedirectOutput.csx"
 #load "Exercise.csx"
 
-;
 using PowerAssert;
 
 var output = capturedConsoleOutput.ToString().Trim();
