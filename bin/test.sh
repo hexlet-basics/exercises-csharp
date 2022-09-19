@@ -6,9 +6,13 @@
 # выполнение скрипта завершается с кодом 0, то есть не считается ошибкой.
 # Нужно найти грамотное решение. Временное решение с помощью bash:
 
-set -e
+OUTPUT=$(scriptcs Test.csx 2>&1)
+exit_code=$?
+echo "$OUTPUT"
 
-{ OUTPUT=$(scriptcs Test.csx 2>&1 | tee /dev/fd/5); } 5>&1
+if [ ! $exit_code -eq 0 ]; then
+  exit $exit_code;
+fi
 
 if [ ! -z "$OUTPUT" ]; then
   MATCHES_COUNT=$(grep -c 'error CS' <<< $OUTPUT) || true
