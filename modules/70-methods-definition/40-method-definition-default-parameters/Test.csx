@@ -1,6 +1,7 @@
 #load "/src/Init.csx"
 #load "Exercise.csx"
 
+;
 using PowerAssert;
 
 var actual1 = App.Truncate("Три закона робототехники придумали кожаные мешки, но мы их перехитрим", 17);

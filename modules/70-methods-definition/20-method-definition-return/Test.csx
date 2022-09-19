@@ -1,6 +1,7 @@
 #load "/src/Init.csx"
 #load "Exercise.csx"
 
+;
 using PowerAssert;
 
 var actual = App.GetCurrentYear();
