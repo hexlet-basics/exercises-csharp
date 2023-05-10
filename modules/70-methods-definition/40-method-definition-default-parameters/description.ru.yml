@@ -63,6 +63,8 @@ theory: |
   North.PickName(); // "Bran Snow"
   ```
 
+  https://replit.com/@hexlet/method-definition-default-parameters
+
 instructions: |
 
   Реализуйте статический метод `Truncate()`, в точности как вы сделали в предыдущем уроке, но сделайте второй параметр необязательным со значением по умолчанию *10*.
