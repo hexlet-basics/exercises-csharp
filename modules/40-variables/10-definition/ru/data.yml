@@ -1,0 +1,17 @@
+name: Что такое переменная
+tips:
+  - >
+    [Именование в
+    программировании](https://ru.hexlet.io/blog/posts/naming-in-programming)
+  - >
+    [Ключевые слова в
+    C#](https://docs.microsoft.com/ru-ru/dotnet/csharp/language-reference/keywords/)
+definitions:
+  - name: Переменная
+    description: >-
+      способ сохранить информацию и дать ей имя для последующего использования в
+      коде.
+  - name: Ключевые слова
+    description: >-
+      зарезервированные слова, которые имеют особое значение для компилятора.
+      Например, `var` — ключевое слово для объявления переменных.
