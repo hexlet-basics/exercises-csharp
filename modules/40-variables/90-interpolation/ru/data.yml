@@ -1,0 +1,10 @@
+name: Интерполяция
+tips:
+  - >
+    [Шаблонные
+    строки](https://docs.microsoft.com/en-us/dotnet/csharp/tutorials/string-interpolation)
+definitions:
+  - name: Интерполяция
+    description: >
+      способ соединения строк через вставку значений переменных в строку-шаблон
+      с помощью фигурных скобок. Например, `$"Hi, {name}!"`.

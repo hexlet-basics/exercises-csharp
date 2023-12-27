@@ -1,0 +1,5 @@
+name: Инкремент и декремент
+tips:
+  - >
+    [Оператор остатка от деления
+    (%)](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/arithmetic-operators#remainder-operator-)
