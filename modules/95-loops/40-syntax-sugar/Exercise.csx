@@ -10,7 +10,7 @@ class App
             var currentChar = str[i];
             if (currentChar != ch)
             {
-                result = result + currentChar;
+                result += currentChar;
             }
 
             i += 1;
