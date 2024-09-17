@@ -11,7 +11,7 @@ class App
                 return true;
             }
 
-            i += 1;
+            i++;
         }
 
         return false;
