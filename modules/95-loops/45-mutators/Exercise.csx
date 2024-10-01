@@ -7,14 +7,14 @@ class App
         var result = "";
         while (i < str.Length)
         {
-            var current = str[i];
+            var currentChar = str[i];
             if ((i + 1) % n == 0)
             {
-                result = result + char.ToUpper(current);
+                result += char.ToUpper(currentChar);
             }
             else
             {
-                result = result + current;
+                result += currentChar;
             }
 
             i++;
