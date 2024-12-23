@@ -104,7 +104,7 @@ Chiswyck
     <pre class='hexlet-basics-output'>
     Polliver
     Gregor Clegane<br>
-    Chiswyck<br>
+    Chiswyck
     <br>
     Dunsen
     </pre>
