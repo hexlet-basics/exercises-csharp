@@ -1,0 +1,9 @@
+Проверочный скрипт пропускает неправильное решение, к примеру:
+var email = " SupporT@hexlet.io\n";
+
+// BEGIN (write your solution here)
+var lower = email.ToLower();
+Console.WriteLine(lower)
+// END
+
+Т.е. не учитывает метода Trim() и завершает урок с успехом.
