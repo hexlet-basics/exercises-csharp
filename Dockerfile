@@ -1,6 +1,8 @@
 FROM hexletbasics/base-image:latest
 
-RUN apt-get update && apt-get install -yq mono-devel
+RUN apt-get update && apt-get install -yqq mono-devel \
+  && apt-get clean \
+  && rm -rf /var/lib/apt/lists/*
 
 ARG SCRIPCS_VERSION=0.17.1
 

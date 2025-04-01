@@ -13,7 +13,7 @@
 
 ---
 
-![Ланнистер или нет](https://i.imgur.com/x08CIAC.jpg)
+![Ланнистер или нет](../assets/lannisters.png)
 
 Напишите метод `IsLannisterSoldier()`, которая принимает на вход два аргумента:
 
