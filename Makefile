@@ -16,7 +16,7 @@ code-lint:
 	# ~/bin/jb inspectcode Program.csproj
 
 clean:
-	@$$(find . -type f -name *.cs -delete)
+	@find . -type f -name "*.cs" -delete
 
 compose-bash:
 	docker-compose run --rm exercises bash

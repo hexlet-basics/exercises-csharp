@@ -1,10 +1,9 @@
 FROM hexletbasics/base-image:latest
 
 RUN apt-get update && apt-get install -yqq mono-devel \
-  && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
-ARG SCRIPCS_VERSION=0.17.1
+ENV SCRIPCS_VERSION=0.17.1
 
 RUN wget -q https://github.com/scriptcs/scriptcs/archive/refs/tags/v${SCRIPCS_VERSION}.tar.gz \
     && tar -xzf v${SCRIPCS_VERSION}.tar.gz \
