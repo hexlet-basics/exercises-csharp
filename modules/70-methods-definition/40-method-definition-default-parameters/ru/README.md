@@ -59,5 +59,3 @@ class North
 
 North.PickName(); // "Bran Snow"
 ```
-
-https://replit.com/@hexlet/method-definition-default-parameters
