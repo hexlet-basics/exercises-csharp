@@ -1,7 +1,7 @@
 ---
 
 language:
-  docker_image: "hexletbasics/exercises-csharp"
+  docker_image: "ghcr.io/hexlet-basics/exercises-csharp"
   extension: csx
   exercise_filename: Exercise.csx
   exercise_test_filename: Test.csx
