@@ -16,7 +16,7 @@ Mailer.Send(email, title, body);
 
 Создадим наш первый метод. Его задача - вывести на экран текущую дату:
 
-<pre class='hexlet-basics-output'>Today is: 2021-10-25</pre>
+```textToday is: 2021-10-25```
 
 ```cs
 // Объявление класса

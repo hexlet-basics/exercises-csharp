@@ -7,6 +7,6 @@
 App.PrintNumbers(4);
 ```
 
-<pre class='hexlet-basics-output'>
+```text
 4<br>3<br>2<br>1<br>finished!
-</pre>
+```
