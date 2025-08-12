@@ -51,9 +51,9 @@ class App
 
 Параметры в C# обязательны. Если попробовать вызвать метод без параметра, то компилятор выдаст ошибку:
 
-```sh
+```cs
 App.GetLastChar(); // такой код не имеет смысла
-There is no argument given that corresponds to the required formal parameter 'str' of 'App.GetLastChar(string)'
+// => There is no argument given that corresponds to the required formal parameter 'str' of 'App.GetLastChar(string)'
 ```
 
 Точно таким же образом можно указывать два, три и более параметров. Каждый параметр отделяется от другого запятой.

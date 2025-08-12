@@ -81,7 +81,8 @@ Chiswyck
     Здесь мы сначала выводим строку «перевод строки», а потом делаем вывод обыкновенной строки. Программа выведет на экран:
 
     ```text
-    <br>
+
+
     Dunsen
     ```
 
@@ -102,8 +103,10 @@ Chiswyck
 
     ```text
     Polliver
-    Gregor Clegane<br>
-    Chiswyck<br>
+    Gregor Clegane
+
+    Chiswyck
+
 
     Dunsen
     ```
@@ -118,7 +121,7 @@ Console.WriteLine("Joffrey loves using \\n");
 
 на экран выйдет:
 
-```
+```text
 Joffrey loves using \n
 ```
 

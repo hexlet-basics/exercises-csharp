@@ -8,5 +8,9 @@ App.PrintNumbers(4);
 ```
 
 ```text
-4<br>3<br>2<br>1<br>finished!
+4
+3
+2
+1
+finished!
 ```

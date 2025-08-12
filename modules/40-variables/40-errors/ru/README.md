@@ -8,7 +8,7 @@ greeting = "Father!";
 
 Запуск программы выше завершается с ошибкой:
 
-```
+```text
 error CS0103: The name 'greeting' does not exist in the current context
 ```
 
