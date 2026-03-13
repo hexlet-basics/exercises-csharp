@@ -3,10 +3,9 @@
 #load "Exercise.csx"
 
 ;
-using PowerAssert;
 
 var output = capturedConsoleOutput.ToString().Trim();
 Console.SetOut(originalStdOut);
 Console.Write(capturedConsoleOutput);
 
-PAssert.IsTrue(() => output == "125\n7500");
+PowerAssert.PAssert.IsTrue(() => output == "125\n7500");

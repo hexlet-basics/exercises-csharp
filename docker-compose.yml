@@ -4,3 +4,4 @@ services:
   exercises:
     build: .
     command: make check
+    mem_limit: 512m
