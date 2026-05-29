@@ -2,13 +2,12 @@
 #load "Exercise.csx"
 
 ;
-using PowerAssert;
 
 var actual1 = App.ConvertString("hey");
-PAssert.IsTrue(() => actual1 == "yeh");
+PowerAssert.PAssert.IsTrue(() => actual1 == "yeh");
 
 var actual2 = App.ConvertString("Hey");
-PAssert.IsTrue(() => actual2 == "Hey");
+PowerAssert.PAssert.IsTrue(() => actual2 == "Hey");
 
 var actual3 = App.ConvertString("");
-PAssert.IsTrue(() => actual3 == "");
+PowerAssert.PAssert.IsTrue(() => actual3 == "");

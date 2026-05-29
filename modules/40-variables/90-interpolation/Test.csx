@@ -3,10 +3,9 @@
 #load "Exercise.csx"
 
 ;
-using PowerAssert;
 
 var output = capturedConsoleOutput.ToString().Trim();
 Console.SetOut(originalStdOut);
 Console.Write(capturedConsoleOutput);
 
-PAssert.IsTrue(() => output == "Do you want to eat, Arya?");
+PowerAssert.PAssert.IsTrue(() => output == "Do you want to eat, Arya?");

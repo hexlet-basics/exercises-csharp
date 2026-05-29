@@ -3,7 +3,6 @@
 #load "Exercise.csx"
 
 ;
-using PowerAssert;
 
 App.PrintNumbers(3);
 
@@ -11,4 +10,4 @@ var output = capturedConsoleOutput.ToString().Trim();
 Console.SetOut(originalStdOut);
 Console.Write(capturedConsoleOutput);
 
-PAssert.IsTrue(() => output == "3\n2\n1\nfinished!");
+PowerAssert.PAssert.IsTrue(() => output == "3\n2\n1\nfinished!");
