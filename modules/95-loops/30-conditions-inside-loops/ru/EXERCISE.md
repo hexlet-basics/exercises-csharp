@@ -6,4 +6,4 @@ App.CountChars("HexlEt", 'e'); // 2
 App.CountChars("HexlEt", 'E'); // 2
 ```
 
-* `char.ToLower()` – переводит символ в нижний регистр
+- `char.ToLower()` – переводит символ в нижний регистр
