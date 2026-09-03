@@ -12,10 +12,7 @@ Console.WriteLine(8/2+5 - -3 / 2);
 
 _dotnet format_ будет «ругаться» на нарушение сразу в нескольких местах:
 
-Program.cs(1,27): error WHITESPACE: Fix whitespace formatting. Insert ' '
-Program.cs(1,28): error WHITESPACE: Fix whitespace formatting. Insert ' '
-Program.cs(1,29): error WHITESPACE: Fix whitespace formatting. Insert ' '
-Program.cs(1,30): error WHITESPACE: Fix whitespace formatting. Insert ' '
+Program.cs(1,27): error WHITESPACE: Fix whitespace formatting. Insert ' ' Program.cs(1,28): error WHITESPACE: Fix whitespace formatting. Insert ' ' Program.cs(1,29): error WHITESPACE: Fix whitespace formatting. Insert ' ' Program.cs(1,30): error WHITESPACE: Fix whitespace formatting. Insert ' '
 
 _Program.cs_ – это имя файла в котором линтер нашел нарушение. Числа в скобка означают номер строки и символа в котором было обнаружено нарушение правил. _WHITESPACE_ – правило, которое было нарушено. Это правило требует наличия пробелов между операторами и операндами. Оно не влияет на результат, но помогает писать код понятнее и проще для восприятия. Код с учетом этого правила выглядит так:
 
