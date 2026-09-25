@@ -1,3 +1,3 @@
-var myBrothersCount = 2;
+var maxLoginAttempts = 2;
 
-Console.WriteLine(myBrothersCount);
+Console.WriteLine(maxLoginAttempts);
