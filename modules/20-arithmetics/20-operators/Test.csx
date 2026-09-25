@@ -8,4 +8,4 @@ var output = capturedConsoleOutput.ToString().Trim();
 Console.SetOut(originalStdOut);
 Console.Write(capturedConsoleOutput);
 
-PowerAssert.PAssert.IsTrue(() => output == "87");
+PowerAssert.PAssert.IsTrue(() => output == "87\n29");
