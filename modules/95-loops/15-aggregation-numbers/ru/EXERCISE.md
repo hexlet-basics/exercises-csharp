@@ -5,4 +5,6 @@
 App.MultiplyNumbersFromRange(1, 5); // 1 * 2 * 3 * 4 * 5 = 120
 App.MultiplyNumbersFromRange(2, 3); // 2 * 3 = 6
 App.MultiplyNumbersFromRange(6, 6); // 6
+App.MultiplyNumbersFromRange(-4, -2); // -24
+App.MultiplyNumbersFromRange(0, 5); // 0
 ```
