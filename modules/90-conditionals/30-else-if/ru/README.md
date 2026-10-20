@@ -1,6 +1,7 @@
 
 В самой полной версии, конструкция `if` содержит не только ветку `else`, но и другие условные проверки с помощью `else if`. Такой вариант используется при большом количестве проверок, которые взаимоисключают друг друга.
 
+<!-- check-csharp-blocks: skip — схема конструкции с комментариями вместо кода -->
 ```cs
 if (/* что-то */)
 {
@@ -25,6 +26,10 @@ else
 Напишем для примера расширенный метод определяющий тип предложения. Он распознает три вида предложений:
 
 ```cs
+App.GetTypeOfSentence("Who?"); // "Sentence is question"
+App.GetTypeOfSentence("No");   // "Sentence is general"
+App.GetTypeOfSentence("No!");  // "Sentence is exclamation"
+
 class App
 {
     public static string GetTypeOfSentence(string sentence)
@@ -47,10 +52,6 @@ class App
         return "Sentence is " + sentenceType;
     }
 }
-
-App.GetTypeOfSentence("Who?"); // "Sentence is question"
-App.GetTypeOfSentence("No");   // "Sentence is general"
-App.GetTypeOfSentence("No!");  // "Sentence is exclamation"
 ```
 
 Теперь все условия выстроены в единую конструкцию. `else if` — это «если не выполнено предыдущее условие, но выполнено текущее». Получается такая схема:

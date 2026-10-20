@@ -17,6 +17,8 @@ App.PrintNumbers(3);
 Этот метод невозможно реализовать уже изученными средствами, так как количество выводов на экран заранее неизвестно. А с циклами это не составит никаких проблем:
 
 ```cs
+App.PrintNumbers(3);
+
 class App
 {
     public static void PrintNumbers(int lastNumber)
@@ -35,8 +37,6 @@ class App
         Console.WriteLine("finished!");
     }
 }
-
-App.PrintNumbers(3);
 ```
 
 ```text
@@ -54,6 +54,7 @@ finished!
 
 Конструкция читается так: «делать то, что указано в теле цикла, пока истинно условие `i <= lastNumber`». Разберём работу этого кода для вызова `App.PrintNumbers(3)`:
 
+<!-- check-csharp-blocks: skip — трассировка выполнения цикла -->
 ```cs
 // Инициализируется i
 var i = 1;

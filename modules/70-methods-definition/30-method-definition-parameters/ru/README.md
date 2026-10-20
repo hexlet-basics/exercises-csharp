@@ -51,14 +51,18 @@ class App
 
 Параметры в C# обязательны. Если попробовать вызвать метод без параметра, то компилятор выдаст ошибку:
 
+<!-- check-csharp-blocks: expect-error — вызов без обязательного аргумента -->
 ```cs
 App.GetLastChar(); // такой код не имеет смысла
-// => There is no argument given that corresponds to the required formal parameter 'str' of 'App.GetLastChar(string)'
+// => error CS7036: There is no argument given that corresponds to the required parameter 'str' of 'App.GetLastChar(string)'
 ```
 
 Точно таким же образом можно указывать два, три и более параметров. Каждый параметр отделяется от другого запятой.
 
 ```cs
+App.Average(1, 5); // 3.0
+App.Average(1, 2); // 1.5
+
 class App
 {
     // Метод по нахождению среднего числа
@@ -69,7 +73,4 @@ class App
         return (x + y) / 2.0;
     }
 }
-
-App.Average(1, 5); // 3.0
-App.Average(1, 2); // 1.5
 ```

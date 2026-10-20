@@ -4,6 +4,10 @@
 Попробуем реализовать функцию, проверяющую год на високосность. Год будет високосным, если он кратен 400 или одновременно кратен 4 и не кратен 100. Как видите, в определении уже заложена вся необходимая логика, осталось только переложить её на код:
 
 ```cs
+App.IsLeapYear(2018); // false
+App.IsLeapYear(2017); // false
+App.IsLeapYear(2016); // true
+
 class App
 {
     public static bool IsLeapYear(int year)
@@ -11,10 +15,6 @@ class App
         return year % 400 == 0 || (year % 4 == 0 && year % 100 != 0);
     }
 }
-
-App.IsLeapYear(2018); // false
-App.IsLeapYear(2017); // false
-App.IsLeapYear(2016); // true
 ```
 
 Разберём по частям:
