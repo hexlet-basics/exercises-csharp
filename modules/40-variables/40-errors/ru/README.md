@@ -1,6 +1,7 @@
 
 Порядок следования инструкций в коде с переменными играет огромное значение. Переменная должна быть определена до того, как будет использована. Ниже пример ошибки, которую очень часто допускают новички:
 
+<!-- check-csharp-blocks: expect-error — переменная используется до объявления -->
 ```cs
 Console.WriteLine(greeting);
 greeting = "Father!";
@@ -16,6 +17,7 @@ error CS0103: The name 'greeting' does not exist in the current context
 
 Еще одна распространенная ошибка — попытаться объявить уже объявленную переменную:
 
+<!-- check-csharp-blocks: expect-error — повторное объявление переменной -->
 ```cs
 var greeting = "Father!";
 var greeting = "Father!";

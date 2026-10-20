@@ -51,6 +51,7 @@ class App
 
 Параметры в C# обязательны. Если попробовать вызвать метод без параметра, то компилятор выдаст ошибку:
 
+<!-- check-csharp-blocks: expect-error — вызов без обязательного аргумента -->
 ```cs
 App.GetLastChar(); // такой код не имеет смысла
 // => error CS7036: There is no argument given that corresponds to the required parameter 'str' of 'App.GetLastChar(string)'

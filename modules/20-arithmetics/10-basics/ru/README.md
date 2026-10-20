@@ -2,6 +2,7 @@
 
 Для сложения двух чисел в математике мы пишем, например, _3 + 4_. В программировании запись такая же, но в C# выражение нельзя оставить отдельной инструкцией. Такая программа не скомпилируется.
 
+<!-- check-csharp-blocks: expect-error — выражение без использования результата -->
 ```cs
 // error CS0201: Only assignment, call, increment, decrement, await, and new object expressions can be used as a statement
 3 + 4;
