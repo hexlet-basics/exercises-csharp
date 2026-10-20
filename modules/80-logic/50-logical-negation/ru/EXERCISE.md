@@ -11,6 +11,6 @@
 Примеры вызова:
 
 ```cs
-App.IsNotLannisterSoldier('red', 'lion'); // false
-App.IsNotLannisterSoldier('blue', null);  // true
+App.IsNotLannisterSoldier("red", "lion"); // false
+App.IsNotLannisterSoldier("blue", null);  // true
 ```
