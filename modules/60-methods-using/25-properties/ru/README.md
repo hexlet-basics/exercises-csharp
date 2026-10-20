@@ -16,7 +16,7 @@ var totalSymbols = name.Length + house.Length;
 Console.WriteLine(totalSymbols);  // => 10
 ```
 
-Свойства есть и у типов. Такие свойства называются статическими. Например у всех числовых типов (byte, short, int, long и т.д.) есть свойства `MinValue` и `MaxValue`.
+Свойства есть и у типов. Такие свойства называются статическими. Например, у всех числовых типов (byte, short, int, long и т.д.) есть свойства `MinValue` и `MaxValue`.
 
 ```cs
 byte.MaxValue; // 255
