@@ -24,7 +24,7 @@ Console.WriteLine(name); // => "hodor"
 С другой стороны, именно в такой ситуации можно создать новую переменную, с другим именем.
 
 ```cs
-var name = "HODOR"
+var name = "HODOR";
 var processedName = name.ToLower();
 Console.WriteLine(processedName); // => "hodor"
 ```
