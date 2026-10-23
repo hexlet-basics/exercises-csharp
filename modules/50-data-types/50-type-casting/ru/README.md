@@ -26,9 +26,3 @@ Console.WriteLine(10 + ((int) 5.1)); // => 15
 var text = 345.ToString();
 Console.WriteLine(text + "!"); // => 345!
 ```
-
-Когда один из операндов `+` строка, C# превращает второй операнд в строку сам, поэтому при конкатенации вызов `ToString()` можно не писать.
-
-```cs
-Console.WriteLine("Count: " + 345); // => Count: 345
-```
