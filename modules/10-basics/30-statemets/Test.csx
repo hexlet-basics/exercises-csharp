@@ -8,4 +8,4 @@ var output = capturedConsoleOutput.ToString().Trim();
 Console.SetOut(originalStdOut);
 Console.Write(capturedConsoleOutput);
 
-PowerAssert.PAssert.IsTrue(() => output == "Robert\nStannis\nRenly");
+PowerAssert.PAssert.IsTrue(() => output == "Order #1337\nStatus: in delivery\nEstimated time: 2 days");
